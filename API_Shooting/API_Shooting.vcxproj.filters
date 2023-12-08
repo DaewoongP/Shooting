@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{4d5b355a-3a8d-4454-809d-305e91b8a40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj">
+      <UniqueIdentifier>{5d852640-2357-4ddd-b73c-d14fa125fe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Design">
+      <UniqueIdentifier>{67d225cd-1ab9-44a1-ad18-8567910b2982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\02. Monster">
+      <UniqueIdentifier>{24eb0e23-ae10-4d2e-bc14-8a96063a7ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\02. Monster\00. Normal">
+      <UniqueIdentifier>{76a3dc80-9ff1-43fd-b53f-76471cc6db44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\02. Monster\01. Boss">
+      <UniqueIdentifier>{032f27fb-ceb5-4124-95a1-cc0ea23847bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\02. Monster\02. Pattern">
+      <UniqueIdentifier>{3acd7a3d-60a9-4926-ac0d-ea2e5b4e2cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\03. Item">
+      <UniqueIdentifier>{3b327bbe-ff92-4580-85b9-7a666eb2d83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\00. Player">
+      <UniqueIdentifier>{05d33af2-d1b9-4882-90bf-488b2102120a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Design\01. CollilusionMgr">
+      <UniqueIdentifier>{d51de0e5-fff8-4c84-955c-8e8b76aea92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Design\00. AbstractFactory">
+      <UniqueIdentifier>{844ddfa8-11be-479f-8ca5-45fefcfb368b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInterface">
+      <UniqueIdentifier>{b96a8058-e3b4-4d3b-af6d-516f4b2c179b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\02. Monster\03. BMonster">
+      <UniqueIdentifier>{121bd0ed-9eae-4381-a9d7-9345f4ecba6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Design\02. DistanceMgr">
+      <UniqueIdentifier>{165d9685-688e-4a8b-9241-6a2ee0c9f011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Design\03. ObjMgr">
+      <UniqueIdentifier>{23230193-c926-4e02-8b96-196ad595ebb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\05. Particle">
+      <UniqueIdentifier>{015b1bcd-79a5-49c3-9f84-4690549abff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\01. Weapon">
+      <UniqueIdentifier>{2ed1b104-b6d5-4e76-9c2e-7173964decf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\01. Weapon\01. Bullet">
+      <UniqueIdentifier>{2023e40d-0db8-4972-9afb-b5d13703cf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\01. Weapon\02. Bomb">
+      <UniqueIdentifier>{952e7dba-59ec-4d5e-8789-1e3388afd4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\01. Weapon\03. Shield">
+      <UniqueIdentifier>{e1cd5090-43c9-4636-a8c7-9949b03752b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Design\04. StageMgr">
+      <UniqueIdentifier>{be0654a0-0bb6-44d4-a02f-bc9a858b6357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Background">
+      <UniqueIdentifier>{e2c37be2-d56c-497d-808b-0308dc271b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Obj\06. Pet">
+      <UniqueIdentifier>{16b398fc-4979-449c-a937-38a963e6913f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Shooting.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\01. Obj\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMonster.h">
+      <Filter>소스 파일\01. Obj\02. Monster\00. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>소스 파일\01. Obj\02. Monster\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterPatternMgr.h">
+      <Filter>소스 파일\01. Obj\02. Monster\02. Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\01. Obj\03. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>소스 파일\02. Design\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollilusionMgr.h">
+      <Filter>소스 파일\02. Design\01. CollilusionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\01. Obj\01. Weapon\01. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTypeBox.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BombBox.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPowerBox.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="HpBox.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletMonster.h">
+      <Filter>소스 파일\01. Obj\02. Monster\03. BMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHpBar.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceMgr.h">
+      <Filter>소스 파일\02. Design\02. DistanceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\02. Design\03. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>소스 파일\01. Obj\01. Weapon\02. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>소스 파일\01. Obj\05. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>소스 파일\01. Obj\01. Weapon\03. Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>소스 파일\01. Obj\01. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMgr.h">
+      <Filter>소스 파일\02. Design\04. StageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>소스 파일\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>소스 파일\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingStar.h">
+      <Filter>소스 파일\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>소스 파일\01. Obj\06. Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBox.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Shooting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\01. Obj\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMonster.cpp">
+      <Filter>소스 파일\01. Obj\02. Monster\00. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>소스 파일\01. Obj\02. Monster\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterPatternMgr.cpp">
+      <Filter>소스 파일\01. Obj\02. Monster\02. Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\01. Obj\03. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CollilusionMgr.cpp">
+      <Filter>소스 파일\02. Design\01. CollilusionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\01. Obj\01. Weapon\01. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTypeBox.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BombBox.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPowerBox.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="HpBox.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletMonster.cpp">
+      <Filter>소스 파일\01. Obj\02. Monster\03. BMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHpBar.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceMgr.cpp">
+      <Filter>소스 파일\02. Design\02. DistanceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\02. Design\03. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>소스 파일\01. Obj\01. Weapon\02. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일\01. Obj\05. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>소스 파일\01. Obj\01. Weapon\03. Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>소스 파일\01. Obj\01. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMgr.cpp">
+      <Filter>소스 파일\02. Design\04. StageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>소스 파일\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>소스 파일\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingStar.cpp">
+      <Filter>소스 파일\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>소스 파일\01. Obj\06. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBox.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>소스 파일\UserInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_Shooting.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="API_Shooting.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
